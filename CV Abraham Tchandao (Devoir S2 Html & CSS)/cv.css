@@ -1,0 +1,424 @@
+/* l'ensemble du document */
+
+
+body {
+	margin: 100px 300px;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	background-color: #ffffff;
+}
+
+
+.cv-container {
+    box-shadow: 0 0 200px rgba(0, 0, 0, .5);
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+
+.container {
+	display: flex;
+	flex-direction: row;
+	max-width: 100%;
+	margin: 0px auto;
+	background-color: #fff;
+	border-radius: 30px 0 0 30px;
+	box-shadow: 0 0 50px rgba(0, 0, 0, 1.2);
+}
+
+
+.left-section {
+	flex-basis: 40%;
+	padding: 40px;
+	background-color: #1a1a1a;
+	border: 1px solid #250b97;
+	border-radius: 30px;
+	color: #fff;
+}
+
+
+.right-section {
+	flex-basis: 60%;
+	padding: 40px;
+	background-color: #ffffff;
+}
+
+
+
+
+/* la section Profil */
+.profile img {
+	display: block;
+	margin: 0 auto 20px;
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+  .progress-bar {
+    background-color: #fff;
+    border: 0px solid #250b97;
+	border-radius: 4px;
+    width: 300px;
+    height: 12px;
+}
+
+
+  .progress {
+    background-color: rgb(255, 230, 0);
+    border-radius: 4px;
+	border: 1px solid #333;
+    height: 11px;
+  }
+
+
+.profile h1 {
+	margin: 0;
+	font-size: 28px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+.profile h3 {
+	text-align: center;
+	color: rgb(255, 230, 0);
+}
+
+
+.profile h5 {
+	text-align: left;
+	margin-left: 5px;
+}
+
+
+.interet h2 {
+	color: aquamarine;
+}
+
+
+.profile hr {
+	margin: 20px 0;
+	height: 1px;
+	border: none;
+	background-color: #fff;
+}
+
+
+
+.cv-section h2 {
+	color: aquamarine;
+}
+
+
+.skill-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 20px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.skill-list li {
+	margin: 5px;
+	padding: 5px;
+	background-color: #1a1a1a;
+	color: #fff;
+	border-radius: 20px;
+}
+
+
+.About h2 {
+	display: flex;
+	align-items: center;
+
+  }
+  
+
+.About h2 img {
+	margin-right: 10px;
+	width: 30px;
+	height: auto;
+  }
+  
+
+.About h2 span {
+	font-size: 25px;
+	font-weight: bold;
+	color: #078fff;
+  }
+
+
+.About h4 {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+
+.About hr {
+	margin: -20px 0 10px;
+	height: 1px;
+	border: none;
+	background-color: #333;
+}
+
+
+
+
+/* la section Expérience professionnelle */
+.experience ul {
+	padding: 0;
+	list-style-type:disc ;
+	margin-left: 30px;
+}
+
+
+.experience h2 {
+	display: flex;
+	align-items: center;
+
+  }
+  
+
+.experience h2 img {
+	margin-right: 10px;
+	width: 30px;
+	height: auto;
+  }
+  
+
+.experience h2 span {
+	font-size: 25px;
+	font-weight: bold;
+	color: #078fff;
+  }
+
+
+.experience h4 {
+	margin: 0;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+
+.experience-date {
+	display: block;
+	margin: 5px 0 10px;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+
+.experience-description {
+	margin: 0;
+}
+
+
+.experience hr {
+	margin: -20px 0 10px;
+	height: 1px;
+	border: none;
+	background-color: #333;
+}
+
+
+
+
+/* Style pour la section Formation */
+.education ul {
+	padding: 0;
+	list-style-type:disc;
+	margin-left: 30px;
+}
+
+
+.education h2 {
+	display: flex;
+	align-items: center;
+  }
+
+  
+.education h2 img {
+	margin-right: 10px;
+	width: 50px;
+	height: auto;
+  }
+  
+
+.education h2 span {
+	font-size: 25px;
+	font-weight: bold;
+	color: #078fff;
+  }
+
+
+.education h4 {
+	margin: 0;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+
+.education-date {
+	display: block;
+	margin: 5px 0 10px;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+
+.education-description {
+	margin: 0;
+}
+
+
+.education hr {
+	margin: -20px 0 10px;
+	height: 1px;
+	border: none;
+	background-color: #333;
+}
+
+
+
+
+/* la section Certifications */
+.certifications ul {
+	padding: 0;
+	list-style-type:disc;
+	margin-left: 30px;
+}
+
+
+.certifications h2 {
+	display: flex;
+	align-items: center;
+}
+  
+
+.certifications h2 img {
+	margin-right: 10px;
+	width: 30px;
+	height: auto;
+}
+  
+
+.certifications h2 span {
+	font-size: 25px;
+	font-weight: bold;
+	color: #078fff;
+}
+
+
+.certifications h4 {
+	margin: 0;
+}
+
+
+.certifications hr {
+	margin: -20px 0 10px;
+	height: 1px;
+	border: none;
+	background-color: #333;
+}
+
+
+
+
+/* la section Réseaux sociaux */
+.Rs h2 {
+	display: flex;
+	align-items: center;
+
+  }
+
+  
+.Rs h2 img {
+	margin-right: 10px;
+	width: 30px;
+	height: auto;
+  }
+
+  
+.Rs h2 span {
+	font-size: 25px;
+	font-weight: bold;
+	color: #078fff;
+  }
+
+
+.Rs h4 {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+
+.Rs hr {
+	margin: -20px 0 10px;
+	height: 1px;
+	border: none;
+	background-color: #333;
+}
+
+
+.Rs p {
+	margin-left: 10px;
+}
+
+
+.Rs p img {
+	margin-right: 10px;
+}
+
+
+.hidden-link {
+	text-decoration: none;
+	color: inherit;
+  }
+  
+
+  .hidden-link:hover {
+	text-decoration: underline;
+  }
+
+  
+  .hidden-link strong {
+	font-weight: bold;
+  }
+  
+
+
+
+
+.info {
+	width: 20px;
+	height: 20px;
+	display:inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+
+
+.highlight {
+
+	color :#078fff;
+	font-weight: bold
+}
+
+
+
+
